@@ -3,9 +3,14 @@ import twoColHeroImg from './assets/images/Main-Image.png';
 import threeColProd1 from './assets/images/SEV1600HW-option.png'
 import threeColProd2 from './assets/images/SEV160014150-option.png'
 import threeColProd3 from './assets/images/SEV1600650-option.png'
+import animation1 from './assets/images/Animation-1.jpg'
 import './App.css';
 import { Col, Container, Row } from 'react-bootstrap';
-
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 function App() {
@@ -17,7 +22,7 @@ function App() {
           Powerful Electric Vehicle Charging
         </h2>
       </header>
-      <body className='appBody'>
+      <div className='appBody'>
         <Container>
           <Row className='twoColHero'>
             <Col>
@@ -50,7 +55,107 @@ function App() {
             </Col>
           </Row>
         </Container>
-      </body>
+      </div>
+      <div className='expansionPanels'>
+        <Container>
+          <Row>
+            <Col>
+              <Accordion className='accordionPanel'>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>Quick Start Guide</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <img src={animation1} className="animation" alt="steps animation"/>
+                  <Typography>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Accordion className='accordionPanel'>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>Mounting the Charging Station</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Accordion className='accordionPanel'>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>Operating the Charging Station</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Accordion className='accordionPanel'>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>LED Behaviors</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Accordion className='accordionPanel'>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>Trouble Shooting</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 }
