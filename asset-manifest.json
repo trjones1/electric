@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/electric/static/css/main.babbc375.css",
+    "main.css": "/electric/static/css/main.da1fe3ba.css",
     "main.js": "/electric/static/js/main.b969e2e4.js",
     "static/js/787.03fc5912.chunk.js": "/electric/static/js/787.03fc5912.chunk.js",
     "static/media/troubleshooting-chart-D.png": "/electric/static/media/troubleshooting-chart-D.7dd0e4830f32fd4f96e5.png",
@@ -11,12 +11,12 @@
     "static/media/SEV1600650-option.png": "/electric/static/media/SEV1600650-option.33d9f81e9cd6c55c1069.png",
     "static/media/SEV160014150-option.png": "/electric/static/media/SEV160014150-option.e89b92382f6db4ff4f2b.png",
     "index.html": "/electric/index.html",
-    "main.babbc375.css.map": "/electric/static/css/main.babbc375.css.map",
+    "main.da1fe3ba.css.map": "/electric/static/css/main.da1fe3ba.css.map",
     "main.b969e2e4.js.map": "/electric/static/js/main.b969e2e4.js.map",
     "787.03fc5912.chunk.js.map": "/electric/static/js/787.03fc5912.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.babbc375.css",
+    "static/css/main.da1fe3ba.css",
     "static/js/main.b969e2e4.js"
   ]
 }
