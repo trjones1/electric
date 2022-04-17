@@ -29,7 +29,35 @@ function App() {
               <img src={twoColHeroImg} className="twoColHeroImg" alt='main'/>
             </Col>
             <Col>
-              Some Text
+           
+            For 75 years, Schumacher Electric has delivered innovative and reliable automotive products trusted by professionals and home mechanics alike. The new Schumacher range of Level 2 EV Wall Chargers follows in this tradition, offering consumers the convenience of Level 2 at-home charging from a brand they can trust.
+            <ul className='bulletPoints'>
+              <li>
+                Hassle-free Level 2 charging
+              </li>
+              <li>
+                50A max output
+              </li>
+              <li>
+                Wi-Fi® and Bluetooth® enabled to work with the
+                  SchuPower™ App
+              </li>
+              <li>
+                Weatherproof housing
+              </li>
+              <li>
+                Universal SAE-J1772 charging gun
+              </li>
+              <li>
+                25-foot cable reaches both bays of a two-car garage
+              </li>
+              <li>
+                Built-in cable storage
+              </li>
+              <li>
+                Three-year warranty
+              </li>
+            </ul>
             </Col>
           </Row>
           <Row>
