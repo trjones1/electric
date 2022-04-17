@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/electric/static/css/main.2cc747f5.css",
+    "main.js": "/electric/static/js/main.c386f6d1.js",
+    "static/js/787.03fc5912.chunk.js": "/electric/static/js/787.03fc5912.chunk.js",
+    "static/media/Animation-1.jpg": "/electric/static/media/Animation-1.475d9b8ed9168691b558.jpg",
+    "static/media/Main-Image.png": "/electric/static/media/Main-Image.bb442650720f953e7a06.png",
+    "static/media/SEV1600HW-option.png": "/electric/static/media/SEV1600HW-option.b8a004e7ac86d3e8da4f.png",
+    "static/media/logo.png": "/electric/static/media/logo.27454f46d9e3472d65a6.png",
+    "static/media/SEV1600650-option.png": "/electric/static/media/SEV1600650-option.33d9f81e9cd6c55c1069.png",
+    "static/media/SEV160014150-option.png": "/electric/static/media/SEV160014150-option.e89b92382f6db4ff4f2b.png",
+    "index.html": "/electric/index.html",
+    "main.2cc747f5.css.map": "/electric/static/css/main.2cc747f5.css.map",
+    "main.c386f6d1.js.map": "/electric/static/js/main.c386f6d1.js.map",
+    "787.03fc5912.chunk.js.map": "/electric/static/js/787.03fc5912.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cc747f5.css",
+    "static/js/main.c386f6d1.js"
+  ]
+}
