@@ -1,12 +1,17 @@
-@shumacherRed : #D02139;
+@shumacherRed : #E51937;
+@pageBG : #323232;
+@gotham : "Gotham Bold", 'Metrophobic', sans-serif;
+
+
 
 .App {
-  text-align: center;
+  text-align: left;
   h2, h3, h4{
     color:@shumacherRed;
+    font-family: @gotham;
   }
-  .App-header {
-    background-color: #282c34;
+  .App-header, .footer {
+    background-color: @pageBG;
     // min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,6 +21,10 @@
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+    .schumacher-logo {
+      height: 89px;
+      width: 523px;
+    }
     .App-logo {
       cursor: pointer;
       max-width: 50%;
@@ -28,8 +37,28 @@
     }    
   }
   .appBody{
-    background-color: #282c34;
+    background-color: @pageBG;
     color:white;
+    .prodDesc{
+      text-align: center;
+    }
+    .powerful-electric-ve {
+      color: @shumacherRed;
+      font-family: @gotham;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 48px;
+      text-align: center;
+    }
+    .new-level-2-ev-wall {
+      color: @shumacherRed;
+      font-family: @gotham;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 26px;
+    }
     .twoColHero{
       padding-bottom: 40px;
     }
@@ -37,7 +66,14 @@
       max-width: 100%;
     }
     .sectionTitle{
-      font-size: 20px;
+      // font-size: 20px;
+      color: @shumacherRed;
+      font-family: @gotham;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 26px;
+      text-align: center;
     }
     .threeColProd{
       max-width: 100%;
@@ -45,6 +81,14 @@
   }
   .expansionPanels{
     margin-top:20px;
+    .panelTitle {
+      color: #000000;
+      font-family: @gotham;
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 39px;
+    }
     .animation{
       max-width: 100%;
       margin-bottom: 10px;
@@ -53,6 +97,22 @@
       margin-bottom: 10px;
       margin-top: 10px;
     }
+    .troubleShooting{
+      max-width: 100%;
+    }
+  }
+  .disclaimer{
+    margin-left: auto;
+    margin-right: auto;
+    height: 257px;
+    max-width: 740px;
+    color: #FFFFFF;
+    font-family: @gotham;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
   }
 }
 
