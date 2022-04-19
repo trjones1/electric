@@ -17,16 +17,25 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo schumacher-logo" alt="logo" />
-        <h2 className="tagline powerful-electric-ve">
-          Powerful Electric Vehicle Charging
-        </h2>
-      </header>
+      <Container className='headerContainer'>
+        <Row>
+          <Col>
+          <header className="App-header">
+            <a href='https://www.schumacherelectric.com/'>
+              <img src={logo} className="App-logo schumacher-logo" alt="logo" />
+            </a>
+            <h2 className="tagline powerful-electric-ve">
+              Powerful Electric Vehicle Charging
+            </h2>
+          </header>
+          </Col>
+        </Row>
+      </Container>
+      
       <div className='appBody'>
         <Container>
           <Row className='twoColHero'>
-            <Col>
+            <Col xs={12} md={6}>
               <img src={twoColHeroImg} className="twoColHeroImg" alt='main'/>
             </Col>
             <Col>
@@ -67,7 +76,6 @@ function App() {
                 </li>
               </ul>
             </div>
-            
             </Col>
           </Row>
           <Row>
@@ -76,17 +84,17 @@ function App() {
             </Col>
           </Row>
           <Row>
-            <Col className='prodDesc'>
+            <Col xs={12} md={4} className='prodDesc'>
               <img src={threeColProd1} className="threeColProd" alt='SEV1600HW'/>
               <strong>SEV1600HW</strong>
               <p>Hard wired into your wall</p>
             </Col>
-            <Col className='prodDesc'>
+            <Col xs={12} md={4} className='prodDesc'>
               <img src={threeColProd2} className="threeColProd" alt='SEV160014150'/>
               <strong>SEV160014150</strong>
               <p>Uses NEMA 14-50 Plug</p>
             </Col>
-            <Col className='prodDesc'>
+            <Col xs={12} md={4} className='prodDesc'>
               <img src={threeColProd3} className="threeColProd" alt='SEV1600650'/>
               <strong>SEV1600HW</strong>
               <p>Uses NEMA 6-50 Plug</p>
@@ -95,7 +103,7 @@ function App() {
         </Container>
       </div>
       <div className='expansionPanels'>
-        <Container>
+        <Container className='expansionPanelContainer'>
           <Row>
             <Col>
               <Accordion className='accordionPanel'>
@@ -156,8 +164,30 @@ function App() {
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    <p>
+                      <strong>Step One</strong>
+                      <p>
+                        Find a stud and mark a horizontal line 50 inches above the floor or ground. Align the center top of the mounting template with the line and tape to the wall.
+                      </p>
+                    </p>
+                    <p>
+                      <strong>Step Two</strong>
+                      <p>
+                        Use a 7/32 inch or 5 mm drill bit to drill two pilot holes into the stud where indicated on the mounting template.
+                      </p>
+                    </p>
+                    <p>
+                      <strong>Step Three</strong>
+                      <p>
+                        Drive the 5.5 mm x 50 mm lag screw without the rubber washer into the top pilot hole, leaving the head of the screw 6-7 mm above the wall surface. Hang the charging station from this screw using the notch on the back of the charging station.
+                      </p>
+                    </p>
+                    <p>
+                      <strong>Step Four</strong>
+                      <p>
+                        Align the charging stations lower mounting hole and the remaining pilot hole. Drive the 5.5 mm x 50 mm lag screw with the rubber washer into the pilot hole and tighten until secure.
+                      </p>
+                    </p>
                   </Typography>
                 </AccordionDetails>
               </Accordion>
@@ -175,8 +205,33 @@ function App() {
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    <p>
+                      <strong>Step One</strong>
+                      <p>
+                        With Power LED showing a solid green color, remove the charging gun from the charging station's dock.
+                      </p>
+                    </p>
+                    <p>
+                      <strong>Step Two</strong>
+                      <p>
+                        Connect the charging gun to your vehicle's J1772 charging port. 
+                        <p>
+                         *Tesla vehicles will require an adapter.
+                        </p>
+                      </p>
+                    </p>
+                    <p>
+                      <strong>Step Three</strong>
+                      <p>
+                        Charging begins automatically and is controlled by your electric vehicle. When charging has stopped return the charging gun to the charging station's dock.
+                      </p>
+                    </p>
+                    <p>
+                      <strong>Step Four</strong>
+                      <p>
+                        Monitor your EV charging status or track your vehicle's charging history via the SchuPower™ app.
+                      </p>
+                    </p>
                   </Typography>
                 </AccordionDetails>
               </Accordion>
@@ -252,7 +307,9 @@ This can be completed through the SchuPowerTM app.
         <Container>
           <Row>
             <Col className='disclaimer'>
-              <img src={logo} className="App-logo schumacher-logo" alt="logo" />
+              <a href='https://www.schumacherelectric.com/'>
+                <img src={logo} className="App-logo schumacher-logo" alt="logo" />
+              </a>
               <p>
                 Disclaimer: Products, specifications and data are subject to change without notice, to improve reliability, function, design, or otherwise. Product images are for illustrative purposes only; actual product appearance may vary. All weights and measurements are approximate.
               </p>

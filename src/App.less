@@ -1,14 +1,45 @@
 @shumacherRed : #E51937;
 @pageBG : #323232;
-@gotham : "Gotham Bold", 'Metrophobic', sans-serif;
+@gothamBold : "Gotham Bold", 'Metrophobic', sans-serif;
+@gothamBook : "Gotham Book", 'Metrophobic', sans-serif;
+@gothamMed : "Gotham Medium", 'Metrophobic', sans-serif;
 
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('./assets/fonts/Gotham-Bold.otf');
+}
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('./assets/fonts/Gotham-Book.otf');
+}
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('./assets/fonts/Gotham-Medium.otf');
+}
 
 
 .App {
   text-align: left;
   h2, h3, h4{
     color:@shumacherRed;
-    font-family: @gotham;
+    font-family: @gothamBold;
+  }
+  .headerContainer, .expansionPanelContainer{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .powerful-electric-ve {
+    color: @shumacherRed;
+    font-family: @gothamBold;
+    font-size: 30px;
+    // font-weight: bold;
+    letter-spacing: 0;
+    line-height: 48px;
+    text-align: center;
+    max-width: 90%;
   }
   .App-header, .footer {
     background-color: @pageBG;
@@ -27,7 +58,15 @@
     }
     .App-logo {
       cursor: pointer;
-      max-width: 50%;
+      max-width: 100%;
+      padding-left: 10%;
+      padding-right: 10%;
+      @media (min-width: 768px) {
+        max-width: 50%;
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 523px;
+      }
     }
     .tagline{
       color: @shumacherRed;
@@ -39,28 +78,26 @@
   .appBody{
     background-color: @pageBG;
     color:white;
+    padding-bottom: 35px;
     .prodDesc{
       text-align: center;
+      font-family: @gothamBook;
+      font-size: 22px;
     }
-    .powerful-electric-ve {
-      color: @shumacherRed;
-      font-family: @gotham;
-      font-size: 40px;
-      font-weight: bold;
-      letter-spacing: 0;
-      line-height: 48px;
-      text-align: center;
-    }
+    
     .new-level-2-ev-wall {
       color: @shumacherRed;
-      font-family: @gotham;
+      font-family: @gothamBold;
       font-size: 22px;
       font-weight: bold;
       letter-spacing: 0;
       line-height: 26px;
+      margin-top: 20px;
     }
     .twoColHero{
       padding-bottom: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     .twoColHeroImg{
       max-width: 100%;
@@ -68,26 +105,36 @@
     .sectionTitle{
       // font-size: 20px;
       color: @shumacherRed;
-      font-family: @gotham;
+      font-family: @gothamBold;
       font-size: 22px;
       font-weight: bold;
       letter-spacing: 0;
       line-height: 26px;
-      text-align: center;
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-bottom: 20px;
+      text-align: left;
+      @media (min-width: 768px) {
+        text-align: center;
+      }
     }
     .threeColProd{
       max-width: 100%;
     }
   }
   .expansionPanels{
-    margin-top:20px;
+    margin-top:70px;
+    @media (min-width: 768px) {
+      margin-top:30px;
+    }
+    svg{
+      font-size: 3.5rem;
+    }
     .panelTitle {
       color: #000000;
-      font-family: @gotham;
-      font-size: 32px;
-      font-weight: bold;
+      font-family: @gothamBold;
+      font-size: 22px;
       letter-spacing: 0;
-      line-height: 39px;
     }
     .animation{
       max-width: 100%;
@@ -96,6 +143,9 @@
     .accordionPanel{
       margin-bottom: 10px;
       margin-top: 10px;
+      box-shadow: none;
+      border-top: 1px solid black;
+      border-radius: 0px;
     }
     .troubleShooting{
       max-width: 100%;
@@ -106,12 +156,15 @@
     margin-right: auto;
     max-width: 740px;
     color: #FFFFFF;
-    font-family: @gotham;
+    font-family: @gothamBook;
     font-size: 18px;
-    font-weight: 300;
     letter-spacing: 0;
     line-height: 21px;
     text-align: center;
+    padding-top: 20px;
+    img{
+      padding-bottom: 20px;
+    }
   }
 }
 
