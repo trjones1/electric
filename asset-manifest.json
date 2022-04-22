@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/electric/static/css/main.ca25b28c.css",
-    "main.js": "/electric/static/js/main.352cf2a0.js",
+    "main.css": "/electric/static/css/main.24f2b5ff.css",
+    "main.js": "/electric/static/js/main.8bbe93a1.js",
     "static/js/787.03fc5912.chunk.js": "/electric/static/js/787.03fc5912.chunk.js",
     "static/media/troubleshooting-chart-D.png": "/electric/static/media/troubleshooting-chart-D.7dd0e4830f32fd4f96e5.png",
     "static/media/Main-Image.png": "/electric/static/media/Main-Image.b2e9d1fbd3f2f3cc7146.png",
     "static/media/Gotham-Medium.otf": "/electric/static/media/Gotham-Medium.d6e50a8b60bf3962400c.otf",
     "static/media/Gotham-Book.otf": "/electric/static/media/Gotham-Book.21a9411a591bb44b47fd.otf",
     "static/media/Gotham-Bold.otf": "/electric/static/media/Gotham-Bold.cdc8119b8e7e97c66b68.otf",
-    "static/media/Animation-1.jpg": "/electric/static/media/Animation-1.475d9b8ed9168691b558.jpg",
     "static/media/SEV1600HW-option.png": "/electric/static/media/SEV1600HW-option.b8a004e7ac86d3e8da4f.png",
     "static/media/logo.png": "/electric/static/media/logo.27454f46d9e3472d65a6.png",
     "static/media/SEV1600650-option.png": "/electric/static/media/SEV1600650-option.33d9f81e9cd6c55c1069.png",
     "static/media/SEV160014150-option.png": "/electric/static/media/SEV160014150-option.e89b92382f6db4ff4f2b.png",
     "index.html": "/electric/index.html",
-    "main.ca25b28c.css.map": "/electric/static/css/main.ca25b28c.css.map",
-    "main.352cf2a0.js.map": "/electric/static/js/main.352cf2a0.js.map",
+    "main.24f2b5ff.css.map": "/electric/static/css/main.24f2b5ff.css.map",
+    "main.8bbe93a1.js.map": "/electric/static/js/main.8bbe93a1.js.map",
     "787.03fc5912.chunk.js.map": "/electric/static/js/787.03fc5912.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca25b28c.css",
-    "static/js/main.352cf2a0.js"
+    "static/css/main.24f2b5ff.css",
+    "static/js/main.8bbe93a1.js"
   ]
 }
