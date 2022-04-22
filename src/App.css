@@ -12,20 +12,13 @@
 }
 .App {
   text-align: left;
+  background-color: #323232;
 }
 .App h2,
 .App h3,
 .App h4 {
   color: #E51937;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
-}
-.App .headerContainer,
-.App .expansionPanelContainer {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0px;
-  padding-right: 0px;
 }
 .App .powerful-electric-ve {
   color: #E51937;
@@ -80,7 +73,7 @@
 .App .appBody {
   background-color: #323232;
   color: white;
-  padding-bottom: 35px;
+  padding-bottom: 25px;
 }
 .App .appBody .prodDesc {
   text-align: center;
@@ -125,11 +118,12 @@
   max-width: 100%;
 }
 .App .expansionPanels {
-  margin-top: 70px;
+  padding-top: 70px;
+  background-color: white;
 }
 @media (min-width: 768px) {
   .App .expansionPanels {
-    margin-top: 30px;
+    padding-top: 30px;
     padding-left: 150px;
     padding-right: 150px;
   }

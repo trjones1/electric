@@ -20,16 +20,10 @@
 
 .App {
   text-align: left;
+  background-color: @pageBG;
   h2, h3, h4{
     color:@shumacherRed;
     font-family: @gothamBold;
-  }
-  .headerContainer, .expansionPanelContainer{
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0px;
-    padding-right: 0px;
   }
   .powerful-electric-ve {
     color: @shumacherRed;
@@ -78,7 +72,7 @@
   .appBody{
     background-color: @pageBG;
     color:white;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
     .prodDesc{
       text-align: center;
       font-family: @gothamBook;
@@ -123,9 +117,10 @@
     }
   }
   .expansionPanels{
-    margin-top:70px;
+    padding-top:70px;
+    background-color: white;
     @media (min-width: 768px) {
-      margin-top:30px;
+      padding-top:30px;
       padding-left: 150px;
       padding-right: 150px;
     }
