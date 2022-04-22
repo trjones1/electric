@@ -3,7 +3,7 @@ import twoColHeroImg from './assets/images/Main-Image.png';
 import threeColProd1 from './assets/images/SEV1600HW-option.png'
 import threeColProd2 from './assets/images/SEV160014150-option.png'
 import threeColProd3 from './assets/images/SEV1600650-option.png'
-import animation1 from './assets/images/Animation-1.jpg'
+// import animation1 from './assets/images/Animation-1.jpg'
 import troubleShooting from './assets/images/troubleshooting-chart-D.png'
 import './App.css';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -12,6 +12,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ReactPlayer from 'react-player';
 
 
 function App() {
@@ -115,7 +116,16 @@ function App() {
                   <Typography className='panelTitle'>Quick Start Guide</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <img src={animation1} className="animation" alt="steps animation"/>
+                  {/* <img src={animation1} className="animation" alt="steps animation"/> */}
+                  <div className='player-wrapper'>
+                    <ReactPlayer
+                      className='react-player'
+                      url='https://vimeo.com/701479189'
+                      width='100%'
+                      height='100%'
+                      controls='true'
+                    />
+                  </div>
                   <Typography>
                     <p>
                       <strong>
@@ -163,6 +173,15 @@ function App() {
                   <Typography className='panelTitle'>Mounting the Charging Station</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
+                  <div className='player-wrapper'>
+                    <ReactPlayer
+                      className='react-player'
+                      url='https://vimeo.com/701479527'
+                      width='100%'
+                      height='100%'
+                      controls='true'
+                    />
+                  </div>
                   <Typography>
                     <p>
                       <strong>Step One</strong>
@@ -204,6 +223,15 @@ function App() {
                   <Typography className='panelTitle'>Operating the Charging Station</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
+                  <div className='player-wrapper'>
+                    <ReactPlayer
+                      className='react-player'
+                      url='https://vimeo.com/701479831'
+                      width='100%'
+                      height='100%'
+                      controls='true'
+                    />
+                  </div>
                   <Typography>
                     <p>
                       <strong>Step One</strong>
@@ -216,7 +244,7 @@ function App() {
                       <p>
                         Connect the charging gun to your vehicle's J1772 charging port. 
                         <p>
-                         *Tesla vehicles will require an adapter.
+                          <small>*Tesla vehicles will require an adapter. Tesla, Inc. is an independently owned and operated company. This product is not manufactured, approved, or endorsed by Tesla, Inc.</small>
                         </p>
                       </p>
                     </p>
