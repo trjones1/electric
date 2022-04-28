@@ -20,6 +20,10 @@
   color: #E51937;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
 }
+.App .slider {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .App .powerful-electric-ve {
   color: #E51937;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;

@@ -1,19 +1,23 @@
 import logo from './assets/images/logo.png';
 import twoColHeroImg from './assets/images/Main-Image.png';
+import heroSlide1 from './assets/images/hero-slide1.png'
+import heroSlide2 from './assets/images/hero-slide2.png'
+import heroSlide3 from './assets/images/hero-slide3.png'
 import threeColProd1 from './assets/images/SEV1600HW-option.png'
 import threeColProd2 from './assets/images/SEV160014150-option.png'
 import threeColProd3 from './assets/images/SEV1600650-option.png'
 // import animation1 from './assets/images/Animation-1.jpg'
 import troubleShooting from './assets/images/troubleshooting-chart-D.png'
 import './App.css';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row} from 'react-bootstrap';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ReactPlayer from 'react-player';
-
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function App() {
   return (
@@ -25,6 +29,24 @@ function App() {
             <a href='https://www.schumacherelectric.com/'>
               <img src={logo} className="App-logo schumacher-logo" alt="logo" />
             </a>
+            <Carousel className="slider" showThumbs={false} 
+                autoPlay={true} infiniteLoop={true} showStatus={false}
+                >
+                <div className="sliderItem">
+                    <img src={heroSlide1} alt='slider1'/>
+                    {/* <p className="legend">Legend 1</p> */}
+                </div>
+                <div className="sliderItem">
+                    <img src={heroSlide2} alt='slider2'/>
+                    {/* <p className="legend">Legend 2</p> */}
+                </div>
+                <div className="sliderItem">
+                    <img src={heroSlide3} alt='slider3'/>
+                    {/* <p className="legend">Legend 3</p> */}
+                </div>
+            </Carousel>
+
+
             <h2 className="tagline powerful-electric-ve">
               Powerful Electric Vehicle Charging
             </h2>
