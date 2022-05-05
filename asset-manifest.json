@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/electric/static/css/main.0dc20895.css",
-    "main.js": "/electric/static/js/main.c8b54afc.js",
+    "main.css": "/electric/static/css/main.06b27073.css",
+    "main.js": "/electric/static/js/main.a07d18cb.js",
     "static/js/787.03fc5912.chunk.js": "/electric/static/js/787.03fc5912.chunk.js",
     "static/media/troubleshooting-chart-D.png": "/electric/static/media/troubleshooting-chart-D.7dd0e4830f32fd4f96e5.png",
     "static/media/Main-Image.png": "/electric/static/media/Main-Image.b2e9d1fbd3f2f3cc7146.png",
+    "static/media/features.png": "/electric/static/media/features.536c38bd59854ef42c74.png",
     "static/media/Gotham-Medium.otf": "/electric/static/media/Gotham-Medium.d6e50a8b60bf3962400c.otf",
     "static/media/Gotham-Book.otf": "/electric/static/media/Gotham-Book.21a9411a591bb44b47fd.otf",
     "static/media/Gotham-Bold.otf": "/electric/static/media/Gotham-Bold.cdc8119b8e7e97c66b68.otf",
@@ -16,12 +17,12 @@
     "static/media/SEV1600650-option.png": "/electric/static/media/SEV1600650-option.33d9f81e9cd6c55c1069.png",
     "static/media/SEV160014150-option.png": "/electric/static/media/SEV160014150-option.e89b92382f6db4ff4f2b.png",
     "index.html": "/electric/index.html",
-    "main.0dc20895.css.map": "/electric/static/css/main.0dc20895.css.map",
-    "main.c8b54afc.js.map": "/electric/static/js/main.c8b54afc.js.map",
+    "main.06b27073.css.map": "/electric/static/css/main.06b27073.css.map",
+    "main.a07d18cb.js.map": "/electric/static/js/main.a07d18cb.js.map",
     "787.03fc5912.chunk.js.map": "/electric/static/js/787.03fc5912.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dc20895.css",
-    "static/js/main.c8b54afc.js"
+    "static/css/main.06b27073.css",
+    "static/js/main.a07d18cb.js"
   ]
 }
