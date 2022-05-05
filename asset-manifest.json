@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/electric/static/css/main.844b5f3c.css",
-    "main.js": "/electric/static/js/main.8bbe93a1.js",
+    "main.css": "/electric/static/css/main.0dc20895.css",
+    "main.js": "/electric/static/js/main.c8b54afc.js",
     "static/js/787.03fc5912.chunk.js": "/electric/static/js/787.03fc5912.chunk.js",
     "static/media/troubleshooting-chart-D.png": "/electric/static/media/troubleshooting-chart-D.7dd0e4830f32fd4f96e5.png",
     "static/media/Main-Image.png": "/electric/static/media/Main-Image.b2e9d1fbd3f2f3cc7146.png",
@@ -10,15 +10,18 @@
     "static/media/Gotham-Bold.otf": "/electric/static/media/Gotham-Bold.cdc8119b8e7e97c66b68.otf",
     "static/media/SEV1600HW-option.png": "/electric/static/media/SEV1600HW-option.b8a004e7ac86d3e8da4f.png",
     "static/media/logo.png": "/electric/static/media/logo.27454f46d9e3472d65a6.png",
+    "static/media/hero-slide1.png": "/electric/static/media/hero-slide1.08328b5a233e1efc02e7.png",
+    "static/media/hero-slide2.png": "/electric/static/media/hero-slide2.08328b5a233e1efc02e7.png",
+    "static/media/hero-slide3.png": "/electric/static/media/hero-slide3.08328b5a233e1efc02e7.png",
     "static/media/SEV1600650-option.png": "/electric/static/media/SEV1600650-option.33d9f81e9cd6c55c1069.png",
     "static/media/SEV160014150-option.png": "/electric/static/media/SEV160014150-option.e89b92382f6db4ff4f2b.png",
     "index.html": "/electric/index.html",
-    "main.844b5f3c.css.map": "/electric/static/css/main.844b5f3c.css.map",
-    "main.8bbe93a1.js.map": "/electric/static/js/main.8bbe93a1.js.map",
+    "main.0dc20895.css.map": "/electric/static/css/main.0dc20895.css.map",
+    "main.c8b54afc.js.map": "/electric/static/js/main.c8b54afc.js.map",
     "787.03fc5912.chunk.js.map": "/electric/static/js/787.03fc5912.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.844b5f3c.css",
-    "static/js/main.8bbe93a1.js"
+    "static/css/main.0dc20895.css",
+    "static/js/main.c8b54afc.js"
   ]
 }
