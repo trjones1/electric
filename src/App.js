@@ -10,6 +10,7 @@ import threeColProd3 from './assets/images/SEV1600650-option.png'
 import troubleShooting from './assets/images/troubleshooting-chart-D.png'
 import './App.css';
 import { Col, Container, Row} from 'react-bootstrap';
+import Button from '@mui/material/Button';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -45,8 +46,6 @@ function App() {
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
             </Carousel>
-
-
             <h2 className="tagline powerful-electric-ve">
               Powerful Electric Vehicle Charging
             </h2>
@@ -98,6 +97,7 @@ function App() {
                   Three-year warranty
                 </li>
               </ul>
+              <Button href="https://www.schumacherelectric.com/" className="btnRed" variant="contained">Shop EV Series</Button>
             </div>
             </Col>
           </Row>
@@ -121,6 +121,30 @@ function App() {
               <img src={threeColProd3} className="threeColProd" alt='SEV1600650'/>
               <strong>SEV1600HW</strong>
               <p>Uses NEMA 6-50 Plug</p>
+            </Col>
+          </Row>
+          <Row className='twoColHero twoColSizzle'>
+            <Col xs={12} md={6} className='sizzleLeft'>
+              <h3 className='sectionTitle'>Why Choose Schumacher?</h3>
+              <div>
+                <p>
+                  Since its founding in 1947, Schumacher Electric has been a leader in the power conversion industry. Today, Schumacher is one of the largest and most groundbreaking battery charger manufacturers in the world. As society transitions from gasoline-powered to all-electric vehicles, Schumacher is developing new products and cutting-edge technology especially for this growing market.
+                </p>
+                <p>
+                  Schumacher is leveraging its 75 years of experience designing and manufacturing automotive battery chargers to create the next generation of automotive charging technology. The new range of EV chargers and accessories embodies Schumacher's belief in delivering value to its customers through reliable and innovative products.
+                </p>
+              </div>
+            </Col>
+            <Col xs={12} md={6} className='sizzleRight'>
+              <div className='player-wrapper'>
+                <ReactPlayer
+                  className='react-player'
+                  url='https://vimeo.com/701479189'
+                  width='100%'
+                  height='100%'
+                  controls='true'
+                />
+              </div>
             </Col>
           </Row>
         </Container>

@@ -20,6 +20,13 @@
   color: #E51937;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
 }
+.App .btnRed {
+  background-color: #E51937;
+  min-width: 282px;
+  min-height: 40px;
+  font-family: "Gotham Bold", 'Metrophobic', sans-serif;
+  margin-top: 5px;
+}
 .App .slider {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -97,6 +104,16 @@
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
+}
+.App .appBody .twoColSizzle {
+  margin-top: 75px;
+}
+.App .appBody .sizzleLeft {
+  padding-top: 50px;
+}
+.App .appBody .sizzleLeft .sectionTitle {
+  text-align: left;
+  padding-left: 0px;
 }
 .App .appBody .twoColHeroImg {
   max-width: 100%;
