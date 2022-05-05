@@ -20,9 +20,12 @@
   color: #E51937;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
 }
+.App a.btnRed:hover {
+  color: white;
+}
 .App .btnRed {
   background-color: #E51937;
-  min-width: 282px;
+  min-width: 242px;
   min-height: 40px;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
   margin-top: 5px;
@@ -106,7 +109,7 @@
   padding-right: 20px;
 }
 .App .appBody .twoColSizzle {
-  margin-top: 75px;
+  margin-top: 100px;
 }
 .App .appBody .sizzleLeft {
   padding-top: 50px;
@@ -137,6 +140,39 @@
 }
 .App .appBody .threeColProd {
   max-width: 100%;
+}
+.App .features {
+  background-color: white;
+  text-align: center;
+  font-family: "Gotham Bold", 'Metrophobic', sans-serif;
+  margin-top: 25px;
+  padding-top: 45px;
+}
+.App .features h2 {
+  color: black;
+}
+.App .features p {
+  font-family: "Gotham Medium", 'Metrophobic', sans-serif;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+.App .features .featuresImg {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.App .features .downloadHeader {
+  margin-bottom: 25px;
+}
+.App .features .downloadHeader h4 {
+  color: black;
+  text-align: left;
+  font-size: 22px;
+}
+.App .features .manualLink a {
+  color: black;
 }
 .App .expansionPanels {
   padding-top: 70px;

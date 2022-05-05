@@ -6,6 +6,7 @@ import heroSlide3 from './assets/images/hero-slide3.png'
 import threeColProd1 from './assets/images/SEV1600HW-option.png'
 import threeColProd2 from './assets/images/SEV160014150-option.png'
 import threeColProd3 from './assets/images/SEV1600650-option.png'
+import featuresImg from './assets/images/features.png'
 // import animation1 from './assets/images/Animation-1.jpg'
 import troubleShooting from './assets/images/troubleshooting-chart-D.png'
 import './App.css';
@@ -97,7 +98,6 @@ function App() {
                   Three-year warranty
                 </li>
               </ul>
-              <Button href="https://www.schumacherelectric.com/" className="btnRed" variant="contained">Shop EV Series</Button>
             </div>
             </Col>
           </Row>
@@ -111,16 +111,19 @@ function App() {
               <img src={threeColProd1} className="threeColProd" alt='SEV1600HW'/>
               <strong>SEV1600HW</strong>
               <p>Hard wired into your wall</p>
+              <Button color='error' href="https://www.schumacherelectric.com/" className="btnRed" variant="contained">Shop SEV1600HW</Button>
             </Col>
             <Col xs={12} md={4} className='prodDesc'>
-              <img src={threeColProd2} className="threeColProd" alt='SEV160014150'/>
-              <strong>SEV160014150</strong>
+              <img src={threeColProd2} className="threeColProd" alt='SEV1600P1450'/>
+              <strong>SEV1600P1450</strong>
               <p>Uses NEMA 14-50 Plug</p>
+              <Button color='error' href="https://www.schumacherelectric.com/" className="btnRed" variant="contained">Shop SEV1600P1450</Button>
             </Col>
             <Col xs={12} md={4} className='prodDesc'>
-              <img src={threeColProd3} className="threeColProd" alt='SEV1600650'/>
-              <strong>SEV1600HW</strong>
+              <img src={threeColProd3} className="threeColProd" alt='SEV1600P650'/>
+              <strong>SEV1600P650</strong>
               <p>Uses NEMA 6-50 Plug</p>
+              <Button color='error' href="https://www.schumacherelectric.com/" className="btnRed" variant="contained">Shop SEV1600P650</Button>
             </Col>
           </Row>
           <Row className='twoColHero twoColSizzle'>
@@ -136,7 +139,6 @@ function App() {
               </div>
             </Col>
             <Col xs={12} md={6} className='sizzleRight'>
-              <div className='player-wrapper'>
                 <ReactPlayer
                   className='react-player'
                   url='https://vimeo.com/701479189'
@@ -144,7 +146,45 @@ function App() {
                   height='100%'
                   controls='true'
                 />
-              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className='features'>
+        <Container>
+          <Row>
+            <Col>
+            <h2>FEATURES</h2>
+            <p>
+              Schumacher offers three models of its Level 2 EV Wall Charger. Check the specifications to determine which model fits your needs.
+            </p>
+            <img src={featuresImg} className='featuresImg' alt='Features'/>
+            </Col>
+          </Row>
+          <Row>
+            <div className='downloadHeader'>
+              <h4>Download the manual</h4>
+            </div>
+            <Col xs={12} md={3}>
+              <ul className='manualLink'>
+                <li>
+                  <a href='https://www.google.com/'>English Manual</a>
+                </li>
+              </ul>
+            </Col>
+            <Col xs={12} md={3}>
+              <ul className='manualLink'>
+                <li>
+                  <a href='https://www.google.com/'>French Manual</a>
+                </li>
+              </ul>
+            </Col>
+            <Col xs={12} md={3}>
+              <ul className='manualLink'>
+                <li>
+                  <a href='https://www.google.com/'>Spanish Manual</a>
+                </li>
+              </ul>
             </Col>
           </Row>
         </Container>
