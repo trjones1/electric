@@ -7,6 +7,14 @@ import threeColProd1 from './assets/images/SEV1600HW-option.png'
 import threeColProd2 from './assets/images/SEV160014150-option.png'
 import threeColProd3 from './assets/images/SEV1600650-option.png'
 import featuresImg from './assets/images/features.png'
+import accessory1 from './assets/images/accessory1.png'
+import accessory2 from './assets/images/accessory2.png'
+import accessory3 from './assets/images/accessory3.png'
+import charger1 from './assets/images/charger1.png'
+import charger2 from './assets/images/charger2.png'
+import charger3 from './assets/images/charger3.png'
+import schuLogo from './assets/images/schupowerLogo.png'
+import schuApp from './assets/images/schupowerApp.png'
 // import animation1 from './assets/images/Animation-1.jpg'
 import troubleShooting from './assets/images/troubleshooting-chart-D.png'
 import './App.css';
@@ -18,6 +26,9 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ReactPlayer from 'react-player';
+import MobileStoreButton from 'react-mobile-store-button';
+const iOSUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
+const androidUrl = 'https://play.google.com';
 // import { Carousel } from 'react-responsive-carousel';
 // import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -201,7 +212,130 @@ function App() {
           </Row>
         </Container>
       </div>
-      <div className='accessories'></div>
+      <div className='accessories'>
+        <Container>
+          <Row>
+            <Col>
+            <h3>
+              EV Family &amp; Accessories
+            </h3>
+            <h4>
+              Schumacher's range of EV chargers and accessories feature cutting-edge technology and the same quality Schumacher has been known for since 1947.
+            </h4>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} md={4} className='prodDesc'>
+              <img src={accessory1} className="threeColProd" alt='SEV1600 EV2 Charger'/>
+              <p>
+                <strong>SEV1600 EV2 Charger</strong>
+                <br/>
+                (Multiple Options Available)
+              </p>
+              <Button color='primary' href="https://www.schumacherelectric.com/" className="btnBlk" variant="contained">Shop Now</Button>
+            </Col>
+            <Col xs={12} md={4} className='prodDesc'>
+              <img src={accessory2} className="threeColProd" alt='SC1455 Portable Charger'/>
+              <p>
+                <strong>SC1455 Portable Charger</strong>
+                <br/>
+                Level 1 &amp; Level 2 Charging
+              </p>
+              <Button color='primary' href="https://www.schumacherelectric.com/" className="btnBlk" variant="contained">Shop Now</Button>
+            </Col>
+            <Col xs={12} md={4} className='prodDesc'>
+              <img src={accessory3} className="threeColProd" alt='SA914 Tesla Adapter'/>
+              <p>
+                <strong>SA914 Tesla Adapter</strong>
+                <br/>
+                For 16A EV Charger
+              </p>
+              <Button color='primary' href="https://www.schumacherelectric.com/" className="btnBlk" variant="contained">Shop Now</Button>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className='threeChargers'>
+        <Container>
+          <Row>
+            <Col>
+            <h2>
+              Three Classifications of EV Chargers
+            </h2>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} md={4} className='prodDesc'>
+              <img src={charger1} className="threeColProd" alt='SEV1600 EV2 Charger'/>
+            </Col>
+            <Col xs={12} md={4} className='prodDesc'>
+              <img src={charger2} className="threeColProd" alt='SEV1600 EV2 Charger'/>
+            </Col>
+            <Col xs={12} md={4} className='prodDesc'>
+              <img src={charger3} className="threeColProd" alt='SEV1600 EV2 Charger'/>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+            <p className='estimated'>
+              *Estimated
+            </p>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className='horizontalLine'>
+        <Container>
+          <Row>
+            <Col>
+              <hr/>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className='mobileApps'>
+        <Container>
+          <Row>
+            <Col>
+              <h2>Portable Monitoring of your EV Charger</h2>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <img src={schuLogo} alt='SchuPower'/>
+              <p>
+                <strong>Download the SchuPower™ App</strong>
+              </p>
+              <p>
+                With integrated Wi-Fi and Bluetooth technology, you can easily connect your Schumacher Level 2 EV Wall Charger to the SchuPower™ app. With the app, you can monitor your EV charging status, track your vehicle's charging history, or troubleshoot any issues.
+              </p>
+              <Row>
+                <Col>
+                  <MobileStoreButton className='mobileBtn iosBtn'
+                    store="ios"
+                    width='255px'
+                    height='50px'
+                    url={iOSUrl}
+                    linkProps={{ title: 'iOS Store Button' }}
+                  />
+                </Col>
+                <Col>
+                  <MobileStoreButton className='mobileBtn'
+                    store="android"
+                    width='255px'
+                    height='75px'
+                    url={androidUrl}
+                    linkProps={{ title: 'Android Store Button' }}
+                  />
+                </Col>
+              </Row>
+            </Col>
+            <Col>
+              <img src={schuApp} alt='SchuPower'/>
+            </Col>
+          </Row>
+        </Container>
+      </div>
       <div className='expansionPanels'>
         <Container className='expansionPanelContainer'>
           <Row>

@@ -25,10 +25,11 @@
 }
 .App .btnRed {
   background-color: #E51937;
-  min-width: 242px;
-  min-height: 40px;
-  font-family: "Gotham Bold", 'Metrophobic', sans-serif;
+  min-width: 282px;
+  min-height: 50px;
+  font-family: "Gotham Medium", 'Metrophobic', sans-serif;
   margin-top: 5px;
+  font-size: 18px;
 }
 .App .slider {
   margin-top: 30px;
@@ -157,6 +158,7 @@
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
   margin-top: 25px;
   padding-top: 45px;
+  padding-bottom: 50px;
 }
 .App .features h2 {
   color: black;
@@ -186,6 +188,101 @@
 }
 .App .features .manualLink a {
   color: black;
+}
+.App .accessories {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+  text-align: center;
+  font-family: "Gotham Bold", 'Metrophobic', sans-serif;
+  background-color: #E51937;
+}
+.App .accessories h3,
+.App .accessories h4 {
+  color: white;
+}
+.App .accessories h3 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.App .accessories h4 {
+  margin-bottom: 50px;
+  font-size: 18px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.App .accessories .btnBlk {
+  background-color: #323232;
+  min-width: 282px;
+  min-height: 50px;
+  font-family: "Gotham Medium", 'Metrophobic', sans-serif;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.App .accessories .prodDesc {
+  text-align: center;
+  font-family: "Gotham Bold", 'Metrophobic', sans-serif;
+  font-size: 22px;
+}
+.App .accessories .threeColProd {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.App .threeChargers {
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 75px;
+  text-align: center;
+  font-family: "Gotham Bold", 'Metrophobic', sans-serif;
+}
+.App .threeChargers h2 {
+  color: black;
+  font-size: 40px;
+  font-family: "Gotham Bold", 'Metrophobic', sans-serif;
+  padding-bottom: 50px;
+}
+.App .threeChargers .prodDesc {
+  text-align: center;
+  font-family: "Gotham Bold", 'Metrophobic', sans-serif;
+  font-size: 22px;
+}
+.App .threeChargers .threeColProd {
+  padding-right: 20px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.App .threeChargers .estimated {
+  font-family: "Gotham Book", 'Metrophobic', sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+  text-align: left;
+}
+.App .horizontalLine {
+  background-color: white;
+  padding-bottom: 75px;
+}
+.App .horizontalLine hr {
+  color: black;
+  background: black;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.App .mobileApps {
+  background-color: white;
+  text-align: center;
+}
+.App .mobileApps h2 {
+  font-family: "Gotham Bold", 'Metrophobic', sans-serif;
+  font-size: 40px;
+}
+.App .mobileApps p {
+  text-align: left;
+}
+.App .mobileApps .iosBtn {
+  margin-top: 10px;
 }
 .App .expansionPanels {
   padding-top: 70px;
