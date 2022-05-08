@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/electric/static/css/main.06b27073.css",
-    "main.js": "/electric/static/js/main.a07d18cb.js",
+    "main.css": "/electric/static/css/main.4868e426.css",
+    "main.js": "/electric/static/js/main.4492b28d.js",
     "static/js/787.03fc5912.chunk.js": "/electric/static/js/787.03fc5912.chunk.js",
     "static/media/troubleshooting-chart-D.png": "/electric/static/media/troubleshooting-chart-D.7dd0e4830f32fd4f96e5.png",
     "static/media/Main-Image.png": "/electric/static/media/Main-Image.b2e9d1fbd3f2f3cc7146.png",
@@ -17,12 +17,12 @@
     "static/media/SEV1600650-option.png": "/electric/static/media/SEV1600650-option.33d9f81e9cd6c55c1069.png",
     "static/media/SEV160014150-option.png": "/electric/static/media/SEV160014150-option.e89b92382f6db4ff4f2b.png",
     "index.html": "/electric/index.html",
-    "main.06b27073.css.map": "/electric/static/css/main.06b27073.css.map",
-    "main.a07d18cb.js.map": "/electric/static/js/main.a07d18cb.js.map",
+    "main.4868e426.css.map": "/electric/static/css/main.4868e426.css.map",
+    "main.4492b28d.js.map": "/electric/static/js/main.4492b28d.js.map",
     "787.03fc5912.chunk.js.map": "/electric/static/js/787.03fc5912.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06b27073.css",
-    "static/js/main.a07d18cb.js"
+    "static/css/main.4868e426.css",
+    "static/js/main.4492b28d.js"
   ]
 }
