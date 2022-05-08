@@ -10,7 +10,7 @@ import featuresImg from './assets/images/features.png'
 // import animation1 from './assets/images/Animation-1.jpg'
 import troubleShooting from './assets/images/troubleshooting-chart-D.png'
 import './App.css';
-import { Col, Container, Row} from 'react-bootstrap';
+import { Col, Container, Row, Carousel} from 'react-bootstrap';
 import Button from '@mui/material/Button';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -18,8 +18,8 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ReactPlayer from 'react-player';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import { Carousel } from 'react-responsive-carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function App() {
   return (
@@ -31,32 +31,44 @@ function App() {
             <a href='https://www.schumacherelectric.com/'>
               <img src={logo} className="App-logo schumacher-logo" alt="logo" />
             </a>
-            <Carousel className="slider" showThumbs={false} 
+
+            {/* <Carousel className="slider" showThumbs={false} 
                 autoPlay={true} infiniteLoop={true} showStatus={false}
                 >
                 <div className="sliderItem">
                     <img src={heroSlide1} alt='slider1'/>
-                    {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div className="sliderItem">
                     <img src={heroSlide2} alt='slider2'/>
-                    {/* <p className="legend">Legend 2</p> */}
                 </div>
                 <div className="sliderItem">
                     <img src={heroSlide3} alt='slider3'/>
-                    {/* <p className="legend">Legend 3</p> */}
                 </div>
-            </Carousel>
-            <h2 className="tagline powerful-electric-ve">
-              Powerful Electric Vehicle Charging
-            </h2>
+            </Carousel> */}
           </header>
           </Col>
         </Row>
       </Container>
-      
+      <Carousel className="slider">
+        <Carousel.Item>
+          <img className='d-block w-100' src={heroSlide1} alt='slider1'/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className='d-block w-100' src={heroSlide2} alt='slider2'/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className='d-block w-100' src={heroSlide3} alt='slider3'/>
+        </Carousel.Item>
+      </Carousel>
       <div className='appBody'>
         <Container>
+          <Row>
+            <Col>
+              <h2 className="tagline powerful-electric-ve">
+                Powerful Electric Vehicle Charging
+              </h2>
+            </Col>
+          </Row>
           <Row className='twoColHero'>
             <Col xs={12} md={6}>
               <img src={twoColHeroImg} className="twoColHeroImg" alt='main'/>
@@ -165,21 +177,21 @@ function App() {
             <div className='downloadHeader'>
               <h4>Download the manual</h4>
             </div>
-            <Col xs={12} md={3}>
+            <Col xs={12} md={4}>
               <ul className='manualLink'>
                 <li>
                   <a href='https://www.google.com/'>English Manual</a>
                 </li>
               </ul>
             </Col>
-            <Col xs={12} md={3}>
+            <Col xs={12} md={4}>
               <ul className='manualLink'>
                 <li>
                   <a href='https://www.google.com/'>French Manual</a>
                 </li>
               </ul>
             </Col>
-            <Col xs={12} md={3}>
+            <Col xs={12} md={4}>
               <ul className='manualLink'>
                 <li>
                   <a href='https://www.google.com/'>Spanish Manual</a>
@@ -189,6 +201,7 @@ function App() {
           </Row>
         </Container>
       </div>
+      <div className='accessories'></div>
       <div className='expansionPanels'>
         <Container className='expansionPanelContainer'>
           <Row>

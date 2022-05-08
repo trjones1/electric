@@ -34,14 +34,28 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.App .slider .carousel-indicators [data-bs-target] {
+  width: 15px;
+  border-radius: 50%;
+  height: 15px;
+  margin-right: 8px;
+  margin-left: 8px;
+  border: solid 1px darkgrey;
+  /* border-top: 10px solid transparent; */
+  /* border-bottom: 10px solid transparent; */
+}
+.App .tagline {
+  color: #E51937;
+}
 .App .powerful-electric-ve {
   color: #E51937;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 0;
   line-height: 48px;
   text-align: center;
-  max-width: 90%;
+  margin-top: 10px;
+  margin-bottom: 75px;
 }
 .App .App-header,
 .App .footer {
@@ -76,10 +90,6 @@
     max-width: 523px;
   }
 }
-.App .App-header .tagline,
-.App .footer .tagline {
-  color: #E51937;
-}
 .App .App-header .App-link,
 .App .footer .App-link {
   color: #61dafb;
@@ -101,7 +111,7 @@
   font-weight: bold;
   letter-spacing: 0;
   line-height: 26px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .App .appBody .twoColHero {
   padding-bottom: 40px;
@@ -170,6 +180,9 @@
   color: black;
   text-align: left;
   font-size: 22px;
+}
+.App .features .manualLink {
+  text-align: left;
 }
 .App .features .manualLink a {
   color: black;
