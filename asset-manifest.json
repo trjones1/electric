@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/electric/static/css/main.5fa9fd54.css",
-    "main.js": "/electric/static/js/main.cd5b45c6.js",
+    "main.css": "/electric/static/css/main.bd144827.css",
+    "main.js": "/electric/static/js/main.4bd2bbb8.js",
     "static/js/787.03fc5912.chunk.js": "/electric/static/js/787.03fc5912.chunk.js",
     "static/media/troubleshooting-chart-D.png": "/electric/static/media/troubleshooting-chart-D.7dd0e4830f32fd4f96e5.png",
     "static/media/Main-Image.png": "/electric/static/media/Main-Image.b2e9d1fbd3f2f3cc7146.png",
@@ -22,12 +22,12 @@
     "static/media/SEV160014150-option.png": "/electric/static/media/SEV160014150-option.e89b92382f6db4ff4f2b.png",
     "static/media/schupowerLogo.png": "/electric/static/media/schupowerLogo.138925f7112716323126.png",
     "index.html": "/electric/index.html",
-    "main.5fa9fd54.css.map": "/electric/static/css/main.5fa9fd54.css.map",
-    "main.cd5b45c6.js.map": "/electric/static/js/main.cd5b45c6.js.map",
+    "main.bd144827.css.map": "/electric/static/css/main.bd144827.css.map",
+    "main.4bd2bbb8.js.map": "/electric/static/js/main.4bd2bbb8.js.map",
     "787.03fc5912.chunk.js.map": "/electric/static/js/787.03fc5912.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fa9fd54.css",
-    "static/js/main.cd5b45c6.js"
+    "static/css/main.bd144827.css",
+    "static/js/main.4bd2bbb8.js"
   ]
 }
