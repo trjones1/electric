@@ -169,8 +169,10 @@
       font-family: @gothamMed;
       text-align: center; 
       margin-bottom: 0px;
-      padding-left: 18%;
-      padding-right: 18%;
+      @media (min-width: 768px){
+        padding-left: 18%;
+        padding-right: 18%;
+      }
     }
     .featuresImg{
       margin-top: 50px;
@@ -219,6 +221,9 @@
       font-family: @gothamMed;
       margin-top: 5px;
       font-size: 18px;
+      @media (max-width: 768px) {
+        margin-bottom: 40px;
+      }
     }
     .prodDesc{
       text-align: center;
@@ -251,6 +256,9 @@
       padding-right: 20px;
       max-width: 100%;
       margin-bottom: 20px;
+      @media (max-width: 768px) {
+        margin-bottom: 75px;
+      }
     }
     .estimated{
       font-family: @gothamBook;
@@ -278,16 +286,31 @@
     h2{
       font-family: @gothamBold;
       font-size: 40px;
+      margin-bottom: 75px;
+    }
+    img.schuLogo{
+      margin-bottom: 40px;
+      max-width: 338px;
+      @media (max-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .mobileAppDownload{
+      @media (max-width: 768px) {
+        text-align: center;
+      }
     }
     p{
       text-align: left;
     }
     .iosBtn{
       margin-top: 10px;
+      margin-left: 24px;
     }
-    // .mobileBtn{
-    //   max-width: ;
-    // }
+    .mobileBtn{
+      padding-left: 5%;
+    }
   }
   .expansionPanels{
     padding-top:70px;

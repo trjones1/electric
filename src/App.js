@@ -181,7 +181,7 @@ function App() {
             <p>
               Schumacher offers three models of its Level 2 EV Wall Charger. Check the specifications to determine which model fits your needs.
             </p>
-            <img src={featuresImg} className='featuresImg' alt='Features'/>
+            <img src={featuresImg} className='featuresImg d-block w-100' alt='Features'/>
             </Col>
           </Row>
           <Row>
@@ -301,10 +301,10 @@ function App() {
             </Col>
           </Row>
           <Row>
-            <Col>
-              <img src={schuLogo} alt='SchuPower'/>
+            <Col xs={12} md={6}>
+              <img src={schuLogo} alt='SchuPower' class="schuLogo d-block w-100"/>
               <p>
-                <strong>Download the SchuPower™ App</strong>
+                <strong><span className='mobileAppDownload'>Download the SchuPower™ App</span></strong>
               </p>
               <p>
                 With integrated Wi-Fi and Bluetooth technology, you can easily connect your Schumacher Level 2 EV Wall Charger to the SchuPower™ app. With the app, you can monitor your EV charging status, track your vehicle's charging history, or troubleshoot any issues.
@@ -320,7 +320,7 @@ function App() {
                   />
                 </Col>
                 <Col>
-                  <MobileStoreButton className='mobileBtn'
+                  <MobileStoreButton className='mobileBtn androidBtn'
                     store="android"
                     width='255px'
                     height='75px'
@@ -330,8 +330,8 @@ function App() {
                 </Col>
               </Row>
             </Col>
-            <Col>
-              <img src={schuApp} alt='SchuPower'/>
+            <Col xs={12} md={6}>
+              <img src={schuApp} alt='SchuPower' class="d-block w-100"/>
             </Col>
           </Row>
         </Container>

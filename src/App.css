@@ -167,8 +167,12 @@
   font-family: "Gotham Medium", 'Metrophobic', sans-serif;
   text-align: center;
   margin-bottom: 0px;
-  padding-left: 18%;
-  padding-right: 18%;
+}
+@media (min-width: 768px) {
+  .App .features p {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
 }
 .App .features .featuresImg {
   margin-top: 50px;
@@ -219,6 +223,11 @@
   margin-top: 5px;
   font-size: 18px;
 }
+@media (max-width: 768px) {
+  .App .accessories .btnBlk {
+    margin-bottom: 40px;
+  }
+}
 .App .accessories .prodDesc {
   text-align: center;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
@@ -251,6 +260,11 @@
   max-width: 100%;
   margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+  .App .threeChargers .threeColProd {
+    margin-bottom: 75px;
+  }
+}
 .App .threeChargers .estimated {
   font-family: "Gotham Book", 'Metrophobic', sans-serif;
   font-size: 18px;
@@ -277,12 +291,32 @@
 .App .mobileApps h2 {
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
   font-size: 40px;
+  margin-bottom: 75px;
+}
+.App .mobileApps img.schuLogo {
+  margin-bottom: 40px;
+  max-width: 338px;
+}
+@media (max-width: 768px) {
+  .App .mobileApps img.schuLogo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .App .mobileApps .mobileAppDownload {
+    text-align: center;
+  }
 }
 .App .mobileApps p {
   text-align: left;
 }
 .App .mobileApps .iosBtn {
   margin-top: 10px;
+  margin-left: 24px;
+}
+.App .mobileApps .mobileBtn {
+  padding-left: 5%;
 }
 .App .expansionPanels {
   padding-top: 70px;
