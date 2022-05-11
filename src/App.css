@@ -20,16 +20,30 @@
   color: #E51937;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
 }
-.App a.btnRed:hover {
+.App a.btn:hover {
   color: white;
 }
-.App .btnRed {
-  background-color: #E51937;
+.App .btn {
   min-width: 282px;
   min-height: 50px;
   font-family: "Gotham Medium", 'Metrophobic', sans-serif;
   margin-top: 5px;
   font-size: 18px;
+}
+@media (max-width: 768px) {
+  .App .btn {
+    margin-bottom: 40px;
+  }
+}
+.App .btnRed {
+  background-color: #E51937;
+}
+.App .btnBlk {
+  background-color: #323232;
+}
+.App .btnWht {
+  background-color: white;
+  color: #E51937;
 }
 .App .slider {
   margin-top: 30px;
@@ -215,19 +229,6 @@
   margin-left: 10%;
   margin-right: 10%;
 }
-.App .accessories .btnBlk {
-  background-color: #323232;
-  min-width: 282px;
-  min-height: 50px;
-  font-family: "Gotham Medium", 'Metrophobic', sans-serif;
-  margin-top: 5px;
-  font-size: 18px;
-}
-@media (max-width: 768px) {
-  .App .accessories .btnBlk {
-    margin-bottom: 40px;
-  }
-}
 .App .accessories .prodDesc {
   text-align: center;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
@@ -321,6 +322,7 @@
 .App .expansionPanels {
   padding-top: 70px;
   background-color: white;
+  padding-bottom: 35px;
 }
 @media (min-width: 768px) {
   .App .expansionPanels {
@@ -359,9 +361,39 @@
   box-shadow: none;
   border-top: 1px solid black;
   border-radius: 0px;
+  padding-top: 15px;
+}
+.App .expansionPanels .troubleShootingPanel {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 .App .expansionPanels .troubleShooting {
   max-width: 100%;
+}
+.App .custSupport {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.App .custSupport h3 {
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .App .custSupport p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+.App .contactUs {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #E51937;
+  color: white;
+  text-align: center;
+}
+.App .contactUs h3 {
+  color: white;
+  padding-bottom: 25px;
 }
 .App .disclaimer {
   margin-left: auto;

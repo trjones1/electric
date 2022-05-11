@@ -27,8 +27,17 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ReactPlayer from 'react-player';
 import MobileStoreButton from 'react-mobile-store-button';
+// URLs
+const schuHome = 'https://www.schumacherelectric.com/'
+const schuManual = 'https://www.schumacherelectric.com/'
 const iOSUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
 const androidUrl = 'https://play.google.com';
+const mailTo = 'mailto:test@test.com';
+const contactUs = 'mailto:test@test.com';
+const sizzleRight = 'https://vimeo.com/701479189';
+const quickStartVid = 'https://vimeo.com/701479189';
+const mountingVid = 'https://vimeo.com/701479527';
+const operatingVid = 'https://vimeo.com/701479831';
 // import { Carousel } from 'react-responsive-carousel';
 // import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -39,7 +48,7 @@ function App() {
         <Row>
           <Col>
           <header className="App-header">
-            <a href='https://www.schumacherelectric.com/'>
+            <a href={schuHome}>
               <img src={logo} className="App-logo schumacher-logo" alt="logo" />
             </a>
 
@@ -134,19 +143,19 @@ function App() {
               <img src={threeColProd1} className="threeColProd" alt='SEV1600HW'/>
               <strong>SEV1600HW</strong>
               <p>Hard wired into your wall</p>
-              <Button color='error' href="https://www.schumacherelectric.com/" className="btnRed" variant="contained">Shop SEV1600HW</Button>
+              <Button color='error' href={schuHome} className="btn btnRed" variant="contained">Shop SEV1600HW</Button>
             </Col>
             <Col xs={12} md={4} className='prodDesc'>
               <img src={threeColProd2} className="threeColProd" alt='SEV1600P1450'/>
               <strong>SEV1600P1450</strong>
               <p>Uses NEMA 14-50 Plug</p>
-              <Button color='error' href="https://www.schumacherelectric.com/" className="btnRed" variant="contained">Shop SEV1600P1450</Button>
+              <Button color='error' href={schuHome} className="btn btnRed" variant="contained">Shop SEV1600P1450</Button>
             </Col>
             <Col xs={12} md={4} className='prodDesc'>
               <img src={threeColProd3} className="threeColProd" alt='SEV1600P650'/>
               <strong>SEV1600P650</strong>
               <p>Uses NEMA 6-50 Plug</p>
-              <Button color='error' href="https://www.schumacherelectric.com/" className="btnRed" variant="contained">Shop SEV1600P650</Button>
+              <Button color='error' href={schuHome} className="btn btnRed" variant="contained">Shop SEV1600P650</Button>
             </Col>
           </Row>
           <Row className='twoColHero twoColSizzle'>
@@ -164,7 +173,7 @@ function App() {
             <Col xs={12} md={6} className='sizzleRight'>
                 <ReactPlayer
                   className='react-player'
-                  url='https://vimeo.com/701479189'
+                  url={sizzleRight}
                   width='100%'
                   height='100%'
                   controls='true'
@@ -191,21 +200,21 @@ function App() {
             <Col xs={12} md={4}>
               <ul className='manualLink'>
                 <li>
-                  <a href='https://www.google.com/'>English Manual</a>
+                  <a href={schuManual}>English Manual</a>
                 </li>
               </ul>
             </Col>
             <Col xs={12} md={4}>
               <ul className='manualLink'>
                 <li>
-                  <a href='https://www.google.com/'>French Manual</a>
+                  <a href={schuManual}>French Manual</a>
                 </li>
               </ul>
             </Col>
             <Col xs={12} md={4}>
               <ul className='manualLink'>
                 <li>
-                  <a href='https://www.google.com/'>Spanish Manual</a>
+                  <a href={schuManual}>Spanish Manual</a>
                 </li>
               </ul>
             </Col>
@@ -232,7 +241,7 @@ function App() {
                 <br/>
                 (Multiple Options Available)
               </p>
-              <Button color='primary' href="https://www.schumacherelectric.com/" className="btnBlk" variant="contained">Shop Now</Button>
+              <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button>
             </Col>
             <Col xs={12} md={4} className='prodDesc'>
               <img src={accessory2} className="threeColProd" alt='SC1455 Portable Charger'/>
@@ -241,7 +250,7 @@ function App() {
                 <br/>
                 Level 1 &amp; Level 2 Charging
               </p>
-              <Button color='primary' href="https://www.schumacherelectric.com/" className="btnBlk" variant="contained">Shop Now</Button>
+              <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button>
             </Col>
             <Col xs={12} md={4} className='prodDesc'>
               <img src={accessory3} className="threeColProd" alt='SA914 Tesla Adapter'/>
@@ -250,7 +259,7 @@ function App() {
                 <br/>
                 For 16A EV Charger
               </p>
-              <Button color='primary' href="https://www.schumacherelectric.com/" className="btnBlk" variant="contained">Shop Now</Button>
+              <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button>
             </Col>
           </Row>
         </Container>
@@ -353,7 +362,7 @@ function App() {
                   <div className='player-wrapper'>
                     <ReactPlayer
                       className='react-player'
-                      url='https://vimeo.com/701479189'
+                      url={quickStartVid}
                       width='100%'
                       height='100%'
                       controls='true'
@@ -409,7 +418,7 @@ function App() {
                   <div className='player-wrapper'>
                     <ReactPlayer
                       className='react-player'
-                      url='https://vimeo.com/701479527'
+                      url={mountingVid}
                       width='100%'
                       height='100%'
                       controls='true'
@@ -459,7 +468,7 @@ function App() {
                   <div className='player-wrapper'>
                     <ReactPlayer
                       className='react-player'
-                      url='https://vimeo.com/701479831'
+                      url={operatingVid}
                       width='100%'
                       height='100%'
                       controls='true'
@@ -548,7 +557,7 @@ This can be completed through the SchuPowerTM app.
           </Row>
           <Row>
             <Col>
-              <Accordion className='accordionPanel'>
+              <Accordion className='accordionPanel troubleShootingPanel'>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
@@ -564,11 +573,54 @@ This can be completed through the SchuPowerTM app.
           </Row>
         </Container>
       </div>
+      <div className='custSupport'>
+        <Container>
+          <Row>
+            <Col>
+            <h3>Customer Support</h3>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <p>
+                For troubleshooting assistance, product feedback, or questions relating to product repairs or returns, please contact Schumacher customer support at <strong>1-800-621-5485</strong> or <a href={mailTo}>send us a message.</a>
+              </p>
+              <strong>
+                <p>
+                  Monday - Friday: 5:00 am - 9:00 pm (std)
+                </p>
+                <p>
+                  Saturday: 10:00 am - 3:00 pm (std)
+                </p>
+                <p>
+                  Sunday: 11:00 am - 2:010 pm (std)
+                </p>
+              </strong>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className='contactUs'>
+        <Container>
+          <Row>
+            <Col>
+              <h3>
+                Need business solutions or have a partnership opportunity?
+              </h3>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Button color='error' href={contactUs} className="btn btnWht" variant="contained">Contact Us</Button>
+            </Col>
+          </Row>
+        </Container>
+      </div>
       <div className='footer'>
         <Container>
           <Row>
             <Col className='disclaimer'>
-              <a href='https://www.schumacherelectric.com/'>
+              <a href={schuHome}>
                 <img src={logo} className="App-logo schumacher-logo" alt="logo" />
               </a>
               <p>
