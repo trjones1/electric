@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/electric/static/css/main.d419354c.css",
-    "main.js": "/electric/static/js/main.e20ca278.js",
+    "main.css": "/electric/static/css/main.4fbdb550.css",
+    "main.js": "/electric/static/js/main.3bf819e7.js",
     "static/js/787.03fc5912.chunk.js": "/electric/static/js/787.03fc5912.chunk.js",
     "static/media/troubleshooting-chart-D.png": "/electric/static/media/troubleshooting-chart-D.7dd0e4830f32fd4f96e5.png",
     "static/media/Main-Image.png": "/electric/static/media/Main-Image.b2e9d1fbd3f2f3cc7146.png",
@@ -20,14 +20,16 @@
     "static/media/schupowerApp.png": "/electric/static/media/schupowerApp.f796a14d5d5937f321b6.png",
     "static/media/SEV1600650-option.png": "/electric/static/media/SEV1600650-option.33d9f81e9cd6c55c1069.png",
     "static/media/SEV160014150-option.png": "/electric/static/media/SEV160014150-option.e89b92382f6db4ff4f2b.png",
+    "static/media/android.png": "/electric/static/media/android.f902960a94878ee0da67.png",
     "static/media/schupowerLogo.png": "/electric/static/media/schupowerLogo.138925f7112716323126.png",
+    "static/media/ios.svg": "/electric/static/media/ios.15f01eefb2013206cc7e.svg",
     "index.html": "/electric/index.html",
-    "main.d419354c.css.map": "/electric/static/css/main.d419354c.css.map",
-    "main.e20ca278.js.map": "/electric/static/js/main.e20ca278.js.map",
+    "main.4fbdb550.css.map": "/electric/static/css/main.4fbdb550.css.map",
+    "main.3bf819e7.js.map": "/electric/static/js/main.3bf819e7.js.map",
     "787.03fc5912.chunk.js.map": "/electric/static/js/787.03fc5912.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d419354c.css",
-    "static/js/main.e20ca278.js"
+    "static/css/main.4fbdb550.css",
+    "static/js/main.3bf819e7.js"
   ]
 }
