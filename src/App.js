@@ -15,7 +15,6 @@ import charger2 from './assets/images/charger2.png'
 import charger3 from './assets/images/charger3.png'
 import schuLogo from './assets/images/schupowerLogo.png'
 import schuApp from './assets/images/schupowerApp.png'
-// import animation1 from './assets/images/Animation-1.jpg'
 import troubleShooting from './assets/images/troubleshooting-chart-D.png'
 import './App.css';
 import { Col, Container, Row, Carousel} from 'react-bootstrap';
@@ -26,7 +25,6 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ReactPlayer from 'react-player';
-import MobileStoreButton from 'react-mobile-store-button';
 // URLs
 const schuHome = 'https://www.schumacherelectric.com/'
 const schuManual = 'https://www.schumacherelectric.com/'
@@ -90,7 +88,7 @@ function App() {
             </Col>
           </Row>
           <Row className='twoColHero'>
-            <Col xs={12} md={6}>
+            <Col xs={12} lg={6}>
               <img src={twoColHeroImg} className="twoColHeroImg" alt='main'/>
             </Col>
             <Col>
@@ -139,19 +137,19 @@ function App() {
             </Col>
           </Row>
           <Row>
-            <Col xs={12} md={4} className='prodDesc'>
+            <Col xs={12} lg={4} className='prodDesc'>
               <img src={threeColProd1} className="threeColProd" alt='SEV1600HW'/>
               <strong>SEV1600HW</strong>
               <p>Hard wired into your wall</p>
               <Button color='error' href={schuHome} className="btn btnRed" variant="contained">Shop SEV1600HW</Button>
             </Col>
-            <Col xs={12} md={4} className='prodDesc'>
+            <Col xs={12} lg={4} className='prodDesc'>
               <img src={threeColProd2} className="threeColProd" alt='SEV1600P1450'/>
               <strong>SEV1600P1450</strong>
               <p>Uses NEMA 14-50 Plug</p>
               <Button color='error' href={schuHome} className="btn btnRed" variant="contained">Shop SEV1600P1450</Button>
             </Col>
-            <Col xs={12} md={4} className='prodDesc'>
+            <Col xs={12} lg={4} className='prodDesc'>
               <img src={threeColProd3} className="threeColProd" alt='SEV1600P650'/>
               <strong>SEV1600P650</strong>
               <p>Uses NEMA 6-50 Plug</p>
@@ -159,7 +157,7 @@ function App() {
             </Col>
           </Row>
           <Row className='twoColHero twoColSizzle'>
-            <Col xs={12} md={6} className='sizzleLeft'>
+            <Col xs={12} lg={6} className='sizzleLeft'>
               <h3 className='sectionTitle'>Why Choose Schumacher?</h3>
               <div>
                 <p>
@@ -170,7 +168,7 @@ function App() {
                 </p>
               </div>
             </Col>
-            <Col xs={12} md={6} className='sizzleRight'>
+            <Col xs={12} lg={6} className='sizzleRight'>
                 <ReactPlayer
                   className='react-player'
                   url={sizzleRight}
@@ -197,21 +195,21 @@ function App() {
             <div className='downloadHeader'>
               <h4>Download the manual</h4>
             </div>
-            <Col xs={12} md={4}>
+            <Col xs={12} lg={4}>
               <ul className='manualLink'>
                 <li>
                   <a href={schuManual}>English Manual</a>
                 </li>
               </ul>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} lg={4}>
               <ul className='manualLink'>
                 <li>
                   <a href={schuManual}>French Manual</a>
                 </li>
               </ul>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} lg={4}>
               <ul className='manualLink'>
                 <li>
                   <a href={schuManual}>Spanish Manual</a>
@@ -234,7 +232,7 @@ function App() {
             </Col>
           </Row>
           <Row>
-            <Col xs={12} md={4} className='prodDesc'>
+            <Col xs={12} lg={4} className='prodDesc'>
               <img src={accessory1} className="threeColProd" alt='SEV1600 EV2 Charger'/>
               <p>
                 <strong>SEV1600 EV2 Charger</strong>
@@ -243,7 +241,7 @@ function App() {
               </p>
               <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button>
             </Col>
-            <Col xs={12} md={4} className='prodDesc'>
+            <Col xs={12} lg={4} className='prodDesc'>
               <img src={accessory2} className="threeColProd" alt='SC1455 Portable Charger'/>
               <p>
                 <strong>SC1455 Portable Charger</strong>
@@ -252,7 +250,7 @@ function App() {
               </p>
               <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button>
             </Col>
-            <Col xs={12} md={4} className='prodDesc'>
+            <Col xs={12} lg={4} className='prodDesc'>
               <img src={accessory3} className="threeColProd" alt='SA914 Tesla Adapter'/>
               <p>
                 <strong>SA914 Tesla Adapter</strong>
@@ -274,13 +272,13 @@ function App() {
             </Col>
           </Row>
           <Row>
-            <Col xs={12} md={4} className='prodDesc'>
+            <Col xs={12} lg={4} className='prodDesc'>
               <img src={charger1} className="threeColProd" alt='SEV1600 EV2 Charger'/>
             </Col>
-            <Col xs={12} md={4} className='prodDesc'>
+            <Col xs={12} lg={4} className='prodDesc'>
               <img src={charger2} className="threeColProd" alt='SEV1600 EV2 Charger'/>
             </Col>
-            <Col xs={12} md={4} className='prodDesc'>
+            <Col xs={12} lg={4} className='prodDesc'>
               <img src={charger3} className="threeColProd" alt='SEV1600 EV2 Charger'/>
             </Col>
           </Row>
@@ -310,7 +308,7 @@ function App() {
             </Col>
           </Row>
           <Row>
-            <Col xs={12} md={6}>
+            <Col xs={12} lg={6}>
               <img src={schuLogo} alt='SchuPower' class="schuLogo d-block w-100"/>
               <p>
                 <strong><span className='mobileAppDownload'>Download the SchuPower™ App</span></strong>
@@ -319,27 +317,25 @@ function App() {
                 With integrated Wi-Fi and Bluetooth technology, you can easily connect your Schumacher Level 2 EV Wall Charger to the SchuPower™ app. With the app, you can monitor your EV charging status, track your vehicle's charging history, or troubleshoot any issues.
               </p>
               <Row>
-                <Col>
-                  <MobileStoreButton className='mobileBtn iosBtn'
-                    store="ios"
-                    width='255px'
-                    height='50px'
-                    url={iOSUrl}
-                    linkProps={{ title: 'iOS Store Button' }}
-                  />
+                <Col xs={12} lg={6}>
+                  <div className="mobileBtn iosBtn">
+                    <a href={iOSUrl} target="_blank" 
+                      rel="noopener noreferrer" title="iOS Store Button">
+                      &nbsp;
+                    </a>
+                  </div>
                 </Col>
-                <Col>
-                  <MobileStoreButton className='mobileBtn androidBtn'
-                    store="android"
-                    width='255px'
-                    height='75px'
-                    url={androidUrl}
-                    linkProps={{ title: 'Android Store Button' }}
-                  />
+                <Col xs={12} lg={6}>
+                  <div className="mobileBtn androidBtn">
+                    <a href={androidUrl} target="_blank" 
+                      rel="noopener noreferrer" title="Android Store Button">
+                      &nbsp;
+                    </a>
+                  </div>
                 </Col>
               </Row>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} lg={6}>
               <img src={schuApp} alt='SchuPower' class="d-block w-100"/>
             </Col>
           </Row>

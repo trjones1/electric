@@ -3,6 +3,8 @@
 @gothamBold : "Gotham Bold", 'Metrophobic', sans-serif;
 @gothamBook : "Gotham Book", 'Metrophobic', sans-serif;
 @gothamMed : "Gotham Medium", 'Metrophobic', sans-serif;
+@androidImg : url('./assets/images/android.png');
+@iosImg : url('./assets/images/ios.svg');
 
 @font-face {
   font-family: 'Gotham Bold';
@@ -305,12 +307,33 @@
     p{
       text-align: left;
     }
+    .mobileBtn{
+      padding-left: 8%;
+      height: 75px; 
+      width: 255px; 
+      display: inline-block;
+    }
+    .mobileBtn a{
+      display: inline-block; 
+      overflow: hidden; 
+      text-decoration: none; 
+      height: 100%; 
+      width: 100%; 
+      padding: 5px;
+    }
     .iosBtn{
       margin-top: 10px;
-      margin-left: 24px;
+      margin-left: -28px;
+      @media (max-width:768px) {
+        margin-left: -32px;
+      }
     }
-    .mobileBtn{
-      padding-left: 5%;
+    .iosBtn a{
+      background: @iosImg 0% 0% / contain no-repeat; 
+      max-width: 170px;
+    }
+    .androidBtn a{
+      background: @androidImg 0% 0% / contain no-repeat; 
     }
   }
   .expansionPanels{

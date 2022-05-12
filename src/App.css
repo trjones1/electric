@@ -312,12 +312,35 @@
 .App .mobileApps p {
   text-align: left;
 }
+.App .mobileApps .mobileBtn {
+  padding-left: 8%;
+  height: 75px;
+  width: 255px;
+  display: inline-block;
+}
+.App .mobileApps .mobileBtn a {
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+}
 .App .mobileApps .iosBtn {
   margin-top: 10px;
-  margin-left: 24px;
+  margin-left: -28px;
 }
-.App .mobileApps .mobileBtn {
-  padding-left: 5%;
+@media (max-width: 768px) {
+  .App .mobileApps .iosBtn {
+    margin-left: -32px;
+  }
+}
+.App .mobileApps .iosBtn a {
+  background: url('./assets/images/ios.svg') 0% 0% / contain no-repeat;
+  max-width: 170px;
+}
+.App .mobileApps .androidBtn a {
+  background: url('./assets/images/android.png') 0% 0% / contain no-repeat;
 }
 .App .expansionPanels {
   padding-top: 70px;
