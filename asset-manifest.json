@@ -1,35 +1,36 @@
 {
   "files": {
-    "main.css": "/electric/static/css/main.4fbdb550.css",
-    "main.js": "/electric/static/js/main.3bf819e7.js",
+    "main.css": "/electric/static/css/main.278ea5ae.css",
+    "main.js": "/electric/static/js/main.d57346a7.js",
     "static/js/787.03fc5912.chunk.js": "/electric/static/js/787.03fc5912.chunk.js",
     "static/media/troubleshooting-chart-D.png": "/electric/static/media/troubleshooting-chart-D.7dd0e4830f32fd4f96e5.png",
     "static/media/Main-Image.png": "/electric/static/media/Main-Image.b2e9d1fbd3f2f3cc7146.png",
-    "static/media/features.png": "/electric/static/media/features.536c38bd59854ef42c74.png",
+    "static/media/red-bg.jpeg": "/electric/static/media/red-bg.8af2b436bd65ea2f48da.jpeg",
     "static/media/Gotham-Medium.otf": "/electric/static/media/Gotham-Medium.d6e50a8b60bf3962400c.otf",
     "static/media/Gotham-Book.otf": "/electric/static/media/Gotham-Book.21a9411a591bb44b47fd.otf",
     "static/media/Gotham-Bold.otf": "/electric/static/media/Gotham-Bold.cdc8119b8e7e97c66b68.otf",
+    "static/media/features.jpeg": "/electric/static/media/features.8eb06dc80baf9a9dcedc.jpeg",
     "static/media/charger1.png": "/electric/static/media/charger1.fd609d039769cff49376.png",
     "static/media/charger2.png": "/electric/static/media/charger2.fd609d039769cff49376.png",
     "static/media/charger3.png": "/electric/static/media/charger3.fd609d039769cff49376.png",
+    "static/media/schupowerApp.jpeg": "/electric/static/media/schupowerApp.d61dc5feb40505ffdb57.jpeg",
     "static/media/SEV1600HW-option.png": "/electric/static/media/SEV1600HW-option.b8a004e7ac86d3e8da4f.png",
     "static/media/logo.png": "/electric/static/media/logo.27454f46d9e3472d65a6.png",
-    "static/media/hero-slide1.png": "/electric/static/media/hero-slide1.08328b5a233e1efc02e7.png",
-    "static/media/hero-slide2.png": "/electric/static/media/hero-slide2.08328b5a233e1efc02e7.png",
-    "static/media/hero-slide3.png": "/electric/static/media/hero-slide3.08328b5a233e1efc02e7.png",
-    "static/media/schupowerApp.png": "/electric/static/media/schupowerApp.f796a14d5d5937f321b6.png",
+    "static/media/accessory1.jpeg": "/electric/static/media/accessory1.d5bd04bf52f8fb4a513f.jpeg",
     "static/media/SEV1600650-option.png": "/electric/static/media/SEV1600650-option.33d9f81e9cd6c55c1069.png",
     "static/media/SEV160014150-option.png": "/electric/static/media/SEV160014150-option.e89b92382f6db4ff4f2b.png",
+    "static/media/accessory3.jpeg": "/electric/static/media/accessory3.c63c12f1efe7647de209.jpeg",
     "static/media/android.png": "/electric/static/media/android.f902960a94878ee0da67.png",
     "static/media/schupowerLogo.png": "/electric/static/media/schupowerLogo.138925f7112716323126.png",
     "static/media/ios.svg": "/electric/static/media/ios.15f01eefb2013206cc7e.svg",
+    "static/media/accessory2.jpeg": "/electric/static/media/accessory2.60ed878b98c7b6c61679.jpeg",
     "index.html": "/electric/index.html",
-    "main.4fbdb550.css.map": "/electric/static/css/main.4fbdb550.css.map",
-    "main.3bf819e7.js.map": "/electric/static/js/main.3bf819e7.js.map",
+    "main.278ea5ae.css.map": "/electric/static/css/main.278ea5ae.css.map",
+    "main.d57346a7.js.map": "/electric/static/js/main.d57346a7.js.map",
     "787.03fc5912.chunk.js.map": "/electric/static/js/787.03fc5912.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fbdb550.css",
-    "static/js/main.3bf819e7.js"
+    "static/css/main.278ea5ae.css",
+    "static/js/main.d57346a7.js"
   ]
 }
