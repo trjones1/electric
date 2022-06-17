@@ -214,6 +214,7 @@
   text-align: center;
   font-family: "Gotham Bold", 'Metrophobic', sans-serif;
   background-color: #E51937;
+  background: url('./assets/images/red-bg.jpeg') 0% 0% / contain no-repeat #E51937;
 }
 .App .accessories h3,
 .App .accessories h4 {
@@ -295,14 +296,18 @@
   margin-bottom: 75px;
 }
 .App .mobileApps img.schuLogo {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   max-width: 338px;
+  margin-left: -7px;
 }
 @media (max-width: 768px) {
   .App .mobileApps img.schuLogo {
     margin-left: auto;
     margin-right: auto;
   }
+}
+.App .mobileApps .mobileAppDownload {
+  font-size: 20px;
 }
 @media (max-width: 768px) {
   .App .mobileApps .mobileAppDownload {
@@ -312,8 +317,14 @@
 .App .mobileApps p {
   text-align: left;
 }
+.App .mobileApps .mobileRow1 {
+  padding-top: 10px;
+}
+.App .mobileApps .mobileCol {
+  text-align: left;
+}
 .App .mobileApps .mobileBtn {
-  padding-left: 8%;
+  text-align: left;
   height: 75px;
   width: 255px;
   display: inline-block;
@@ -328,12 +339,9 @@
 }
 .App .mobileApps .iosBtn {
   margin-top: 10px;
-  margin-left: -28px;
 }
-@media (max-width: 768px) {
-  .App .mobileApps .iosBtn {
-    margin-left: -32px;
-  }
+.App .mobileApps .androidBtn {
+  margin-left: -12px;
 }
 .App .mobileApps .iosBtn a {
   background: url('./assets/images/ios.svg') 0% 0% / contain no-repeat;
@@ -417,6 +425,10 @@
 .App .contactUs h3 {
   color: white;
   padding-bottom: 25px;
+}
+.App .contactLinks {
+  color: black;
+  text-decoration: none;
 }
 .App .disclaimer {
   margin-left: auto;

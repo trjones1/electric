@@ -3,6 +3,7 @@
 @gothamBold : "Gotham Bold", 'Metrophobic', sans-serif;
 @gothamBook : "Gotham Book", 'Metrophobic', sans-serif;
 @gothamMed : "Gotham Medium", 'Metrophobic', sans-serif;
+@redBG : url('./assets/images/red-bg.jpeg');
 @androidImg : url('./assets/images/android.png');
 @iosImg : url('./assets/images/ios.svg');
 
@@ -215,6 +216,7 @@
     text-align: center;
     font-family: @gothamBold;
     background-color: @shumacherRed;
+    background: @redBG 0% 0% / contain no-repeat @shumacherRed;
     h3, h4{
       color:white;
     }
@@ -292,14 +294,16 @@
       margin-bottom: 75px;
     }
     img.schuLogo{
-      margin-bottom: 40px;
+      margin-bottom: 20px;
       max-width: 338px;
+      margin-left: -7px;
       @media (max-width: 768px) {
         margin-left: auto;
         margin-right: auto;
       }
     }
     .mobileAppDownload{
+      font-size: 20px;
       @media (max-width: 768px) {
         text-align: center;
       }
@@ -307,8 +311,15 @@
     p{
       text-align: left;
     }
+    .mobileRow1{
+      padding-top: 10px;
+    }
+    .mobileCol{
+      text-align: left;
+    }
     .mobileBtn{
-      padding-left: 8%;
+      // padding-left: 8%;
+      text-align: left;
       height: 75px; 
       width: 255px; 
       display: inline-block;
@@ -323,10 +334,13 @@
     }
     .iosBtn{
       margin-top: 10px;
-      margin-left: -28px;
-      @media (max-width:768px) {
-        margin-left: -32px;
-      }
+      // margin-left: -28px;
+      // @media (max-width:768px) {
+      //   margin-left: -32px;
+      // }
+    }
+    .androidBtn{
+      margin-left:-12px;
     }
     .iosBtn a{
       background: @iosImg 0% 0% / contain no-repeat; 
@@ -409,6 +423,10 @@
       color: white;
       padding-bottom: 25px;
     }
+  }
+  .contactLinks{
+    color: black;
+    text-decoration: none;
   }
   .disclaimer{
     margin-left: auto;

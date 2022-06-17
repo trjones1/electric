@@ -1,23 +1,24 @@
 import logo from './assets/images/logo.png';
 import twoColHeroImg from './assets/images/Main-Image.png';
-import heroSlide1 from './assets/images/hero-slide1.png'
-import heroSlide2 from './assets/images/hero-slide2.png'
-import heroSlide3 from './assets/images/hero-slide3.png'
+// import heroSlide1 from './assets/images/hero-slide1.png'
+// import heroSlide2 from './assets/images/hero-slide2.png'
+// import heroSlide3 from './assets/images/hero-slide3.png'
 import threeColProd1 from './assets/images/SEV1600HW-option.png'
 import threeColProd2 from './assets/images/SEV160014150-option.png'
 import threeColProd3 from './assets/images/SEV1600650-option.png'
-import featuresImg from './assets/images/features.png'
-import accessory1 from './assets/images/accessory1.png'
-import accessory2 from './assets/images/accessory2.png'
-import accessory3 from './assets/images/accessory3.png'
+import featuresImg from './assets/images/features.jpeg'
+import accessory1 from './assets/images/accessory1.jpeg'
+import accessory2 from './assets/images/accessory2.jpeg'
+import accessory3 from './assets/images/accessory3.jpeg'
 import charger1 from './assets/images/charger1.png'
 import charger2 from './assets/images/charger2.png'
 import charger3 from './assets/images/charger3.png'
 import schuLogo from './assets/images/schupowerLogo.png'
-import schuApp from './assets/images/schupowerApp.png'
+import schuApp from './assets/images/schupowerApp.jpeg'
 import troubleShooting from './assets/images/troubleshooting-chart-D.png'
 import './App.css';
-import { Col, Container, Row, Carousel} from 'react-bootstrap';
+import { Col, Container, Row} from 'react-bootstrap';
+// import { Carousel} from 'react-bootstrap';
 import Button from '@mui/material/Button';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -30,8 +31,8 @@ const schuHome = 'https://www.schumacherelectric.com/'
 const schuManual = 'https://www.schumacherelectric.com/'
 const iOSUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
 const androidUrl = 'https://play.google.com';
-const mailTo = 'mailto:test@test.com';
-const contactUs = 'mailto:test@test.com';
+const mailTo = 'mailto:info@schumacherelectric.com';
+// const contactUs = 'mailto:info@schumacherelectric.com';
 const sizzleRight = 'https://vimeo.com/701479189';
 const quickStartVid = 'https://vimeo.com/701479189';
 const mountingVid = 'https://vimeo.com/701479527';
@@ -67,7 +68,7 @@ function App() {
           </Col>
         </Row>
       </Container>
-      <Carousel className="slider">
+      {/* <Carousel className="slider">
         <Carousel.Item>
           <img className='d-block w-100' src={heroSlide1} alt='slider1'/>
         </Carousel.Item>
@@ -77,7 +78,7 @@ function App() {
         <Carousel.Item>
           <img className='d-block w-100' src={heroSlide3} alt='slider3'/>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
       <div className='appBody'>
         <Container>
           <Row>
@@ -106,14 +107,14 @@ function App() {
                   Hassle-free Level 2 charging
                 </li>
                 <li>
-                  50A max output
+                  Up to 50A max output
                 </li>
                 <li>
                   Wi-Fi® and Bluetooth® enabled to work with the
                     SchuPower™ App
                 </li>
                 <li>
-                  Weatherproof housing
+                  Raintight housing
                 </li>
                 <li>
                   Universal SAE-J1772 charging gun
@@ -141,19 +142,19 @@ function App() {
               <img src={threeColProd1} className="threeColProd" alt='SEV1600HW'/>
               <strong>SEV1600HW</strong>
               <p>Hard wired into your wall</p>
-              <Button color='error' href={schuHome} className="btn btnRed" variant="contained">Shop SEV1600HW</Button>
+              <Button color='error' href={schuHome} className="btn btnRed" variant="contained">View Details</Button>
             </Col>
             <Col xs={12} lg={4} className='prodDesc'>
               <img src={threeColProd2} className="threeColProd" alt='SEV1600P1450'/>
               <strong>SEV1600P1450</strong>
               <p>Uses NEMA 14-50 Plug</p>
-              <Button color='error' href={schuHome} className="btn btnRed" variant="contained">Shop SEV1600P1450</Button>
+              <Button color='error' href={schuHome} className="btn btnRed" variant="contained">View Details</Button>
             </Col>
             <Col xs={12} lg={4} className='prodDesc'>
               <img src={threeColProd3} className="threeColProd" alt='SEV1600P650'/>
               <strong>SEV1600P650</strong>
               <p>Uses NEMA 6-50 Plug</p>
-              <Button color='error' href={schuHome} className="btn btnRed" variant="contained">Shop SEV1600P650</Button>
+              <Button color='error' href={schuHome} className="btn btnRed" variant="contained">View Details</Button>
             </Col>
           </Row>
           <Row className='twoColHero twoColSizzle'>
@@ -174,7 +175,7 @@ function App() {
                   url={sizzleRight}
                   width='100%'
                   height='100%'
-                  controls='true'
+                  controls={true}
                 />
             </Col>
           </Row>
@@ -239,7 +240,7 @@ function App() {
                 <br/>
                 (Multiple Options Available)
               </p>
-              <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button>
+              {/* <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button> */}
             </Col>
             <Col xs={12} lg={4} className='prodDesc'>
               <img src={accessory2} className="threeColProd" alt='SC1455 Portable Charger'/>
@@ -248,7 +249,7 @@ function App() {
                 <br/>
                 Level 1 &amp; Level 2 Charging
               </p>
-              <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button>
+              {/* <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button> */}
             </Col>
             <Col xs={12} lg={4} className='prodDesc'>
               <img src={accessory3} className="threeColProd" alt='SA914 Tesla Adapter'/>
@@ -257,7 +258,7 @@ function App() {
                 <br/>
                 For 16A EV Charger
               </p>
-              <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button>
+              {/* <Button color='primary' href={schuHome} className="btn btnBlk" variant="contained">Shop Now</Button> */}
             </Col>
           </Row>
         </Container>
@@ -309,15 +310,15 @@ function App() {
           </Row>
           <Row>
             <Col xs={12} lg={6}>
-              <img src={schuLogo} alt='SchuPower' class="schuLogo d-block w-100"/>
+              <img src={schuLogo} alt='SchuPower' className="schuLogo d-block w-100"/>
               <p>
                 <strong><span className='mobileAppDownload'>Download the SchuPower™ App</span></strong>
               </p>
               <p>
                 With integrated Wi-Fi and Bluetooth technology, you can easily connect your Schumacher Level 2 EV Wall Charger to the SchuPower™ app. With the app, you can monitor your EV charging status, track your vehicle's charging history, or troubleshoot any issues.
               </p>
-              <Row>
-                <Col xs={12} lg={6}>
+              <Row className='mobileRow1'>
+                <Col xs={12} lg={12} className="mobileCol">
                   <div className="mobileBtn iosBtn">
                     <a href={iOSUrl} target="_blank" 
                       rel="noopener noreferrer" title="iOS Store Button">
@@ -325,7 +326,9 @@ function App() {
                     </a>
                   </div>
                 </Col>
-                <Col xs={12} lg={6}>
+              </Row>
+              <Row>
+                <Col xs={12} lg={12} className="mobileCol">
                   <div className="mobileBtn androidBtn">
                     <a href={androidUrl} target="_blank" 
                       rel="noopener noreferrer" title="Android Store Button">
@@ -336,7 +339,7 @@ function App() {
               </Row>
             </Col>
             <Col xs={12} lg={6}>
-              <img src={schuApp} alt='SchuPower' class="d-block w-100"/>
+              <img src={schuApp} alt='SchuPower' className="d-block w-100"/>
             </Col>
           </Row>
         </Container>
@@ -361,7 +364,7 @@ function App() {
                       url={quickStartVid}
                       width='100%'
                       height='100%'
-                      controls='true'
+                      controls={true}
                     />
                   </div>
                   <Typography>
@@ -417,7 +420,7 @@ function App() {
                       url={mountingVid}
                       width='100%'
                       height='100%'
-                      controls='true'
+                      controls={true}
                     />
                   </div>
                   <Typography>
@@ -467,7 +470,7 @@ function App() {
                       url={operatingVid}
                       width='100%'
                       height='100%'
-                      controls='true'
+                      controls={true}
                     />
                   </div>
                   <Typography>
@@ -579,9 +582,9 @@ This can be completed through the SchuPowerTM app.
           <Row>
             <Col>
               <p>
-                For troubleshooting assistance, product feedback, or questions relating to product repairs or returns, please contact Schumacher customer support at <strong>1-800-621-5485</strong> or <a href={mailTo}>send us a message.</a>
+                For troubleshooting assistance, product feedback, or questions relating to product repairs or returns, please contact Schumacher customer support at <strong><a className='contactLinks' href="tel:1-800-621-5485">1-800-621-5485</a></strong> or email us at <strong><a className='contactLinks' href={mailTo}>info@schumacherelectric.com</a></strong>
               </p>
-              <strong>
+              {/* <strong>
                 <p>
                   Monday - Friday: 5:00 am - 9:00 pm (std)
                 </p>
@@ -591,12 +594,12 @@ This can be completed through the SchuPowerTM app.
                 <p>
                   Sunday: 11:00 am - 2:010 pm (std)
                 </p>
-              </strong>
+              </strong> */}
             </Col>
           </Row>
         </Container>
       </div>
-      <div className='contactUs'>
+      {/* <div className='contactUs'>
         <Container>
           <Row>
             <Col>
@@ -611,7 +614,7 @@ This can be completed through the SchuPowerTM app.
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
       <div className='footer'>
         <Container>
           <Row>
